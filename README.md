@@ -1,4 +1,4 @@
-# AternosCrossUtility
+# AternosCrossUtility Plugin
 A browser based plugin that allows for automatic confirmation of queue waiting and instant click on the adblocker overlay skip button. Currently supports Chromium based browsers ONLY.(Google Chrome, Opera, Brave, Opera GX, Edge).
 
 ## Installation Instructions
