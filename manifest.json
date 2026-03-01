@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "typedecker's Aternos Utility Plugin",
+  "version": "1.2",
+  "description": "Handles adblock overlay with an instant click on detection to reduce latency times; Also instantly clicks the confirm now! button when in a queue.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://aternos.org/*",
+        "https://www.aternos.org/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
